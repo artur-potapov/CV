@@ -6,3 +6,9 @@
 .work__dline {
    line-height: 0;
 }
+
+.work__expand-button {
+  color: blue;
+  cursor: pointer;
+  display: inline-block;
+}
