@@ -5,8 +5,7 @@ import './AboutMe.css';
 export class AboutMe extends React.Component {   
     render() {
         return (
-            <div id='about'>
-                <Block title="Обо мне" >   
+                <Block title='Обо мне' id='about'>   
                 {/* children */}
                     <div>
                         <p>В июне 2015 защитил диплом бакалавра по направлению "Прикладная информатика", 
@@ -20,7 +19,7 @@ export class AboutMe extends React.Component {
                             энергосберегающих технологий, металлургии и металловедения. Современное состояние, 
                             проблематика и перспективы”.</p> 
                     </div>
-                    <div className='aboutme__inline'>
+                    <div className='aboutme--inline'>
                         <div>
                             <img src='img/js.png' className='aboutme__logo'/>
                         </div>
@@ -32,7 +31,6 @@ export class AboutMe extends React.Component {
                         </div>
                     </div>
                 </Block>          
-            </div>
         ) 
     }
 }
