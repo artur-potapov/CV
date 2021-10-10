@@ -1,8 +1,8 @@
 .menu {
     height: 200px;
     width: 170px;
-    position: fixed;
-    top: 350px;
+    position: sticky;
+    top: 190px;
     left: 70px;
     padding-top: 90px;
     padding-left: 30px;

@@ -12,3 +12,7 @@
   cursor: pointer;
   display: inline-block;
 }
+
+.work__block {
+  width: 50%;
+}
