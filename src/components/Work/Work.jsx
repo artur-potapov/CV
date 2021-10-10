@@ -5,8 +5,7 @@ import './Work.css';
 export class Work extends React.Component {
     render() {
         return (
-            <div id='work'>
-                <Block title='Опыт работы'>
+                <Block title='Опыт работы' id='work'>
                     <div className='work__inline'>
                         <div>
                             <img src='img/hs.png'/>
@@ -24,7 +23,6 @@ export class Work extends React.Component {
                         </div>
                     </div>
                 </Block>
-            </div>   
         )    
     }
 }

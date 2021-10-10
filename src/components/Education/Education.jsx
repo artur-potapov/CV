@@ -5,8 +5,7 @@ import './Education.css';
 export class Education extends React.Component {
     render() {
         return (
-            <div id='education'>
-                <Block title='Образование'>
+                <Block title='Образование' id='education'>
                     <div className='education__inline'>
                         <div>
                             <img src='img/misis.jpg' className='education__logo'/>
@@ -30,7 +29,6 @@ export class Education extends React.Component {
                         </div>
                     </div>
                 </Block>
-            </div>
         )
     }
 }
