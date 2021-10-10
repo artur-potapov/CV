@@ -1,14 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Application from './components/App'; // default import (export default ...)
+
 import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Application />
   </React.StrictMode>,
+  //<React.StrictMode>
+    
+  //</React.StrictMode>,
+  //<h1>Привет, мир!</h1>,
   document.getElementById('root')
+
+  
 );
 
 // If you want to start measuring performance in your app, pass a function

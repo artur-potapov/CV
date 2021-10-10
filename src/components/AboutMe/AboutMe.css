@@ -1,0 +1,9 @@
+.aboutme__inline {
+    display: flex;
+    justify-content: space-around;
+  }
+
+.aboutme__logo {
+   max-width: 200px;
+   position: relative;
+}

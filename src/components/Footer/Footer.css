@@ -1,0 +1,21 @@
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background: #f2f2f2;
+    min-height: 50px;
+    padding-top: 3px;
+  }
+
+.footer__logo {
+   max-height: 30px;
+ }
+
+ #contact p {
+   margin: 0%;
+ }
+
+ .footer__shadow {
+  box-shadow: 3px 3px 5px black, -3px -3px 5px black;
+ }

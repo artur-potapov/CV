@@ -1,0 +1,12 @@
+.education__inline {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .education__logo {
+    max-width: 150px;
+  }
+
+  p.education {
+    line-height: 0;
+  }
