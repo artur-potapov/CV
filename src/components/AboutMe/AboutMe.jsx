@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Block from '../Block/Block.js';
 import './AboutMe.css';
 

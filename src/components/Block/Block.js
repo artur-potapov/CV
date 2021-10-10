@@ -4,7 +4,7 @@ import './Block.css';
 function Block(props) {
 
     return (
-        <div class="block" id={props.id}>
+        <div className="block" id={props.id}>
             <div>
                 <h1>{props.title}</h1>             
             </div>

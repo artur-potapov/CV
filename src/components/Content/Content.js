@@ -5,7 +5,7 @@ import './Content.css';
 
 export function Content(props) {
     return (
-        <div class='content'>
+        <div className='content'>
             <AboutMe />
             <Education />
             <Work />
